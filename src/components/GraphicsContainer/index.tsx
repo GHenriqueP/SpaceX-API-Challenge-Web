@@ -1,11 +1,17 @@
+import Barchart from "./GraphicBar";
+import { PieChart } from "./GraphicPie";
 import { GraphicCard, GraphicsContainer } from "./styles";
 
 export function Graphics() {
   return (
     <GraphicsContainer>
-      <GraphicCard></GraphicCard>
+      <GraphicCard>
+        <PieChart />
+      </GraphicCard>
 
-      <GraphicCard></GraphicCard>
+      <GraphicCard>
+        <Barchart />
+      </GraphicCard>
     </GraphicsContainer>
   );
 }

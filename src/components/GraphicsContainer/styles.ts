@@ -19,7 +19,8 @@ export const GraphicsContainer = styled.section`
 export const GraphicCard = styled.div`
   background: ${props => props.theme["gray-600"]};
   border-radius: 6px;
-  padding: 2rem;
+  padding: 1rem;
+  width: 100%;
 
   header {
     display: flex;
