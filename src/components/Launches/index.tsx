@@ -55,6 +55,34 @@ export function Launches() {
               <img src={logoImg} alt="" width={"25px"} />
             </LaunchesTd>
           </LaunchesTr>
+
+          <LaunchesTr>
+            <LaunchesTd>178</LaunchesTd>
+            <LaunchesTd>logo</LaunchesTd>
+            <LaunchesTd>Starlink 4-5 (v1.7)</LaunchesTd>
+            <LaunchesTd>01/09/2022</LaunchesTd>
+            <LaunchesTd>Used Falcon 9</LaunchesTd>
+            <LaunchesTd>
+              <StatusLaunches variant="success">SUCESSO</StatusLaunches>
+            </LaunchesTd>
+            <LaunchesTd>
+              <img src={logoImg} alt="" width={"25px"} />
+            </LaunchesTd>
+          </LaunchesTr>
+
+          <LaunchesTr>
+            <LaunchesTd>177</LaunchesTd>
+            <LaunchesTd>logo</LaunchesTd>
+            <LaunchesTd>Starlink 5-5 (v1.8)</LaunchesTd>
+            <LaunchesTd>21/08/2022</LaunchesTd>
+            <LaunchesTd>Used Falcon 9</LaunchesTd>
+            <LaunchesTd>
+              <StatusLaunches variant="failed">FALHA</StatusLaunches>
+            </LaunchesTd>
+            <LaunchesTd>
+              <img src={logoImg} alt="" width={"25px"} />
+            </LaunchesTd>
+          </LaunchesTr>
         </LaunchesTbody>
       </LaunchesTable>
     </LaunchesContainer>

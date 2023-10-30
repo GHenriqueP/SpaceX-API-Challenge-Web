@@ -21,12 +21,14 @@ export const LaunchesThead = styled.thead`
     color: ${props => props.theme['gray-100']};
 `;
 
-export const LaunchesTbody= styled.tbody`
-
+export const LaunchesTbody = styled.tbody`
+    margin-top: 1rem;
 `;
 
 export const LaunchesTh = styled.th`
     background: ${props => props.theme["gray-600"]};
+
+    text-align: center;
 `;
 
 export const LaunchesTr = styled.tr`
@@ -39,10 +41,7 @@ export const LaunchesTr = styled.tr`
 
 export const LaunchesTd = styled.td`
     padding: 1.25rem 1.7rem;
-
-    img {
-        align-items: center;
-    }
+    text-align: center;
 
     &:first-child {
         border-top-left-radius: 6px;
