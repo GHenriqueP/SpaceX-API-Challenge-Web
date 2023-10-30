@@ -1,15 +1,19 @@
 import styled from "styled-components";
 
-export const LaunchesTable = styled.table`
+export const LaunchesContainer = styled.div`
     margin-top: 1.5rem;
     padding: 0.5rem 1rem;
-    padding-bottom-top-radius: 1rem;
+    width: 100%;
+    height: 26rem;
+    border-radius: 0.5rem;
+    background: ${props => props.theme["gray-600"]};
+`
+
+export const LaunchesTable = styled.table`
     width: 100%;
     border-collapse: separate;
     border-spacing: 0 0.5rem;
     border-radius: 0.5rem;
-
-    background: ${props => props.theme["gray-600"]};
 `;
 
 export const LaunchesThead = styled.thead`
@@ -35,6 +39,10 @@ export const LaunchesTr = styled.tr`
 
 export const LaunchesTd = styled.td`
     padding: 1.25rem 1.7rem;
+
+    img {
+        align-items: center;
+    }
 
     &:first-child {
         border-top-left-radius: 6px;

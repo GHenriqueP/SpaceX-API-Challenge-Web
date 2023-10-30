@@ -41,7 +41,7 @@ export function PieChart() {
         <h3 className="mt-3">Lançamentos de Foguetes</h3>
         <Chart
           type="pie"
-          width={400}
+          width={470}
           height={200}
           series={[20, 20, 20, 20, 20]}
           options={{
