@@ -15,7 +15,7 @@ function Barchart() {
           series={[
             {
               name: "Launches",
-              data: [578, 787, 245, 876, 324, 123, 435],
+              data: [78, 87, 45, 76, 24, 23, 35],
             },
           ]}
           options={{
