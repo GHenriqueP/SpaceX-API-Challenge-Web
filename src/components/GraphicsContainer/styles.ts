@@ -1,17 +1,20 @@
 import { styled } from "styled-components";
 
 export const GraphicsContainer = styled.section`
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 15rem;
+  min-height: 15rem;
+  height: auto;
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 1.5rem;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
-
   margin-top: 2rem;
+  overflow-x: auto;
+  @media (max-width: 780px) {
+  flex-direction: column;
+  }
 `;
 
 
@@ -21,7 +24,7 @@ export const GraphicCard = styled.div`
   border-radius: 6px;
   padding: 1rem;
   width: 100%;
-
+  overflow-x: auto;
   header {
     display: flex;
     align-items: center;

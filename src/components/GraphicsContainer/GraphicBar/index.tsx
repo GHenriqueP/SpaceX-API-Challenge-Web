@@ -11,7 +11,7 @@ function Barchart() {
           type="bar"
           width={450}
           height={200}
-          foreColor="#E1E1E6"
+          forecolor="#E1E1E6"
           series={[
             {
               name: "Launches",
