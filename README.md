@@ -1,4 +1,4 @@
-# SpaceX-API-Challenge-Server by COODESH
+# SpaceX-API-Challenge-Front by COODESH
 
 Este é um projeto de exemplo que demonstra como configurar um ambiente de desenvolvimento frontend local para consumir uma API com Docker, Prisma e Node.js que utiliza um banco de dados MySQL.
 
